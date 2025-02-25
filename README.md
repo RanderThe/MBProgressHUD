@@ -1,4 +1,4 @@
-[![NuGet Version](https://img.shields.io/nuget/v/Drastic.MBProgressHUD.svg)](https://www.nuget.org/packages/Drastic.MBProgressHUD/) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+[![NuGet Version](https://img.shields.io/nuget/v/MBProgressHUDiOS.svg)](https://www.nuget.org/packages/MBProgressHUDiOS/) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 # MBProgressHUDiOS
 

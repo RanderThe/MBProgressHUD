@@ -3,6 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>net8.0-ios</TargetFramework>
 		<ReleaseVersion>1.1.0</ReleaseVersion>
+		<Version>1.1.0</Version>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>true</ImplicitUsings>
 		<IsBindingProject>true</IsBindingProject>

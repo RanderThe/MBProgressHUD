@@ -15,9 +15,9 @@
 
     <PropertyGroup>
     <Authors>$(Company)</Authors>
-      <PackageTags>MBProgressHUD loading uikit ios mac catalyst tvos</PackageTags>
-      <PackageProjectUrl></PackageProjectUrl>
-      <PackageReleaseNotes></PackageReleaseNotes>
+      <PackageTags>MBProgressHUD loading uikit ios</PackageTags>
+      <PackageProjectUrl>https://github.com/RanderThe/MBProgressHUDiOS</PackageProjectUrl>
+      <PackageReleaseNotes>https://github.com/RanderThe/MBProgressHUDiOS/blob/main/CHANGELOG.md</PackageReleaseNotes>
       <PackageReadmeFile>README.md</PackageReadmeFile>
       <PackageIcon>favicon.png</PackageIcon>
       <PackageLicenseExpression>MIT</PackageLicenseExpression>

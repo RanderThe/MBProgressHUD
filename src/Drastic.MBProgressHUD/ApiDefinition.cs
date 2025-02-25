@@ -5,7 +5,7 @@ using Foundation;
 using ObjCRuntime;
 using UIKit;
 
-namespace Drastic.MBProgressHUD
+namespace MBProgressHUD
 {
     [Static]
     partial interface Constants

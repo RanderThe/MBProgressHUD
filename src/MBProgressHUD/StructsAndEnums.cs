@@ -1,6 +1,6 @@
 using ObjCRuntime;
 
-namespace Drastic.MBProgressHUD
+namespace MBProgressHUDiOS
 {
     [Native]
     public enum MBProgressHUDMode : long

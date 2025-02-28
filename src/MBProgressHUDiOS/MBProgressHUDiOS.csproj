@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net8.0-ios</TargetFramework>
-		<ReleaseVersion>1.1.0</ReleaseVersion>
-		<Version>1.1.0</Version>
+<TargetFramework>net8.0-ios</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>true</ImplicitUsings>
 		<IsBindingProject>true</IsBindingProject>
+		<!-- Desativa Bitcode e otimizações problemáticas -->
 		<EnableBitcode>false</EnableBitcode>
 		<MtouchExtraArgs>--optimize=-remove-bitcode</MtouchExtraArgs>
+		<ReleaseVersion>1.2.0</ReleaseVersion>
 		<IsPackable>true</IsPackable>
+		<Version>1.2.0</Version>
 		<Authors>RanderThe</Authors>
 		<Description>Update for Drastic.MBProgressHud using the new version of MBProgressHud, that solve the problem about manifest in AppleStore. A clean and easy-to-use HUD view for UIKit.</Description>
 	</PropertyGroup>
@@ -18,9 +19,9 @@
 		<ObjcBindingCoreSource Include="StructsAndEnums.cs" />
 	</ItemGroup>
 	<ItemGroup>
-		<NativeReference Include="..\..\external\MBProgressHUD\MBProgressHUD.xcframework">
-			<Kind>Framework</Kind>
-			<SmartLink>False</SmartLink>
-		</NativeReference>
+	  <NativeReference Include="..\..\external\MBProgressHUD\MBProgressHUD.xcframework">
+	    <Kind>Static</Kind>
+	    <SmartLink>False</SmartLink>
+	  </NativeReference>
 	</ItemGroup>
 </Project>
